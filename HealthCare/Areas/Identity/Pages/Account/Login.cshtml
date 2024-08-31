@@ -1,5 +1,5 @@
 ﻿@page
-@model HealthCare.Areas.Identity.Pages.Account.LoginModel
+@model LoginModel
 
 @{
 	ViewData["Title"] = "Log in";
@@ -42,3 +42,7 @@
 		</section>
 	</div>
 </div>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}
